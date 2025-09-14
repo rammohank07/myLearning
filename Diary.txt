@@ -1,0 +1,4 @@
+[20:2310]  this is my first project
+[(datetime.date(2025, 9, 14), '20:28:28')] test
+[(datetime.date(2025, 9, 14), '20:28:41')]  trsy
+[2025-30-09/14/25 20:30:34]  test
