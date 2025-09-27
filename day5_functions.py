@@ -12,13 +12,11 @@ def math_fun():
             return f"Addition of two numbers is: {a + b}"
         except Exception as e:
             return f"❌ Error while adding: {e}"
-
     def sub_fun(a, b):
         try:
             return f"Subtraction of two numbers is: {a - b}"
         except Exception as e:
             return f"❌ Error while subtracting: {e}"
-
     def mul_fun(a, b):
         try:
             return f"Multiplication of two numbers is: {a * b}"
@@ -72,7 +70,7 @@ def math_fun():
             return "\n".join(results)  # formatted nicely
     except Exception as e:
         return f"❌ Calculation failed: {e}"
-
+print(math_fun())
 
 
 
